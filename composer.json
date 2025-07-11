@@ -20,7 +20,7 @@
         "psr/log": "^1.0|^2.0|^3.0",
         "ext-json": "*",
         "guzzlehttp/guzzle": "^7.2",
-        "nesbot/carbon": "^2.71",
+        "nesbot/carbon": "^3.10",
         "ext-openssl": "*"
     },
     "require-dev": {
