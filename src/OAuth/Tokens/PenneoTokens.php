@@ -37,9 +37,9 @@ final class PenneoTokens
 
     public function __construct(
         string $accessToken,
-        string $refreshToken = null,
+        ?string $refreshToken = null,
         int $accessTokenExpiresAt,
-        int $refreshTokenExpiresAt = null
+        ?int $refreshTokenExpiresAt = null
     ) {
         $this->refreshToken = $refreshToken;
         $this->accessToken = $accessToken;

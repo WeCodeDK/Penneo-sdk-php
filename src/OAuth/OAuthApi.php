@@ -34,7 +34,7 @@ final class OAuthApi
         OAuthConfig $config,
         TokenStorage $tokenStorage,
         Client $client,
-        NonceGenerator $nonceGenerator = null
+        ?NonceGenerator $nonceGenerator = null
     ) {
         $this->config = $config;
         $this->tokenStorage = $tokenStorage;
